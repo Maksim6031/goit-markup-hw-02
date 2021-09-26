@@ -1,4 +1,48 @@
+/* -------------------------Основні кольори текста------------------------- */
+
+:root {
+  --Main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --hover-color: #2196f3;
+}
+
+/* ----------------------Загальні правила стилізації--------------------------------- */
+
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
+
+/* правило для силок */
+
+.link {
+  text-decoration: none;
+}
+/* правило для списків */
+
+.list {
+  list-style-type: none;
+}
+
+/* -----------------Стилізація логотіпа--------------------------- */
+
+.log {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.log-secondary {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+/* ---------------------------------Стилізація header----------------------------- */
