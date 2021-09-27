@@ -3,6 +3,7 @@
 :root {
   --Main-text-color: #212121;
   --secondary-text-color: #757575;
+  --third-color: #ffffff;
   --hover-color: #2196f3;
 }
 
@@ -22,6 +23,12 @@ body {
 
 .list {
   list-style-type: none;
+}
+
+h2,
+h3 {
+  color: var(--Main-text-color);
+  font-family: Roboto;
 }
 
 /* -----------------Стилізація логотіпа--------------------------- */
@@ -45,4 +52,172 @@ body {
   letter-spacing: 0.03em;
   color: #000000;
 }
+
+.log-third{
+    font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+}
+
+/* -------------------------Стилізація кнопкі------------------ */
+.btn {
+}
 /* ---------------------------------Стилізація header----------------------------- */
+
+.header{
+
+}
+
+.header-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--Main-text-color);
+}
+
+.header-item-link:hover,
+:focus {
+  color: var(--hover-color);
+}
+
+.header-contact {
+  color: var(--secondary-text-color);
+}
+
+.header-contact:hover,
+:focus {
+  color: var(--hover-color);
+}
+
+/* -----------------------------Стилізація main------------------------------ */
+
+/* ----------------------------------Секция герой------------------------------- */
+
+.main-hero {
+}
+.main-hero-title {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--third-color);
+  background-color: #2f303a;
+}
+
+.main-hero-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--third-color);
+  background-color: #2196f3;
+}
+
+/* --------------------------------------Секция secondary---------------------- */
+
+.main-secondary {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.main-secondary-list {
+}
+
+.main-secondary-item {
+}
+
+.main-secondary-title {
+  font-weight: 700;
+}
+
+.main-secondary-text {
+  font-weight: 400;
+}
+
+/* --------------------------------Секция work----------------------------------- */
+
+.main-work {
+}
+
+.main-work-title {
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  color: var(--Main-text-color);
+}
+
+.main-work-item {
+}
+
+.main-work-foto {
+}
+
+/* --------------------------------------Секция team---------------------------------- */
+
+.main-team {
+}
+
+.main-team-title {
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--Main-text-color);
+  font-weight: 700;
+}
+
+.main-team-list {
+}
+
+.main-team-item {
+}
+
+.main-team-foto {
+}
+
+.main-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--Main-text-color);
+}
+
+.main-team-text {
+  font-size: 16px;
+  line-height: 1.18;
+  font-weight: 400;
+  color: var(--secondary-text-color);
+}
+
+/* -----------------------------------------Секция footer-------------------------- */
+
+.footer{
+background: #2F303A;
+}
+
+.footer-address{
+  font-size: 14px;
+line-height: 1.71;
+color: var(--third-color);
+}
+
+.footer-cintact{
+  font-size: 14px;
+line-height: 1.71;
+color: var(--third-color);
+}
