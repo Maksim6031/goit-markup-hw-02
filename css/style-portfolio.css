@@ -1,0 +1,180 @@
+/* -------------------------Основні кольори текста------------------------- */
+
+:root {
+  --Main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --third-color: #ffffff;
+  --hover-color: #2196f3;
+}
+
+/* ----------------------Загальні правила стилізації--------------------------------- */
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* правило для силок */
+
+.link {
+  text-decoration: none;
+}
+/* правило для списків */
+
+.list {
+  list-style-type: none;
+}
+
+h2,
+h3 {
+  color: var(--Main-text-color);
+  font-family: Roboto;
+}
+
+/* -----------------Стилізація логотіпа--------------------------- */
+
+.log {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.log-secondary {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.log-third{
+    font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+}
+
+/* -------------------------Стилізація кнопкі------------------ */
+.btn {
+}
+/* ---------------------------------Стилізація header----------------------------- */
+
+.header{
+
+}
+
+.header-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--Main-text-color);
+}
+
+.header-item-link:hover,
+:focus {
+  color: var(--hover-color);
+}
+
+.header-contact {
+  color: var(--secondary-text-color);
+}
+
+.header-contact:hover,
+:focus {
+  color: var(--hover-color);
+}
+
+/* ------------------------------------------Стілізация main----------------------- */
+
+/* ----------------------------------------------------main hero-------------------------------- */
+
+.main{
+
+}
+
+.title{
+
+}
+
+.hero{
+
+}
+
+.hero-nav{
+
+}
+
+.hero-list-button{
+
+}
+
+.hero-item{
+
+}
+
+.hero-button{
+font-weight: 500;    
+font-size: 16px;
+line-height: 1.62;
+color: var(--Main-text-color);
+background: #F5F4FA;
+}
+
+.hero-button
+:hover,
+:focus{
+    color: var(--third-color);
+    background-color: var(--hover-color);
+}
+
+.hero-list-menu{
+
+}
+
+.hero-list-menu-item{
+
+}
+.hero-list-menu-foto{
+
+}
+.hero-list-menu-name{
+font-size: 18px;
+line-height: 2;
+color: var(--Main-text-color);
+font-weight:700 ;
+}
+.hero-list-menu-text{
+font-size: 16px;
+line-height: 1.87;
+color: var(--secondary-text-color);
+font-weight:400 ;
+}
+/* -----------------------------------------Секция footer-------------------------- */
+
+.footer{
+background: #2F303A;
+}
+
+.footer-address{
+  font-size: 14px;
+line-height: 1.71;
+color: var(--third-color);
+}
+
+.footer-cintact{
+  font-size: 14px;
+line-height: 1.71;
+color: var(--third-color);
+}
