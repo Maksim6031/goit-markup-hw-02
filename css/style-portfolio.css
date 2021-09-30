@@ -88,6 +88,10 @@ h3 {
 }
 
 .header-contact {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 
@@ -173,8 +177,12 @@ line-height: 1.71;
 color: var(--third-color);
 }
 
-.footer-cintact{
-  font-size: 14px;
+.footer-contact{ 
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
 line-height: 1.71;
+letter-spacing: 0.03em;
 color: var(--third-color);
 }
