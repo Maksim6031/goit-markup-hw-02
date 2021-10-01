@@ -83,7 +83,7 @@ h3 {
 }
 
 .header-item-link:hover,
-:focus {
+.header-item-link:focus {
   color: var(--hover-color);
 }
 
@@ -96,7 +96,7 @@ letter-spacing: 0.02em;
 }
 
 .header-contact:hover,
-:focus {
+.header-contact:focus {
   color: var(--hover-color);
 }
 
@@ -129,18 +129,20 @@ letter-spacing: 0.02em;
 }
 
 .hero-button{
+font-family: Roboto;
+font-style: normal;
 font-weight: 500;    
 font-size: 16px;
 line-height: 1.62;
 color: var(--Main-text-color);
 background: #F5F4FA;
+border-radius: 4px;;
 }
 
-.hero-button
-:hover,
-:focus{
+.hero-button:hover,
+.hero-button:focus {
     color: var(--third-color);
-    background-color: var(--hover-color);
+    background-color: #2196F3;
 }
 
 .hero-list-menu{
@@ -172,6 +174,8 @@ background: #2F303A;
 }
 
 .footer-address{
+  font-style: normal;
+  font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
 line-height: 1.71;
@@ -185,5 +189,5 @@ font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: var(--third-color);
+color: rgba(255, 255, 255, 0.6);
 }

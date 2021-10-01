@@ -70,6 +70,7 @@ h3 {
 }
 /* ---------------------------------Стилізація header----------------------------- */
 
+
 .header{
 
 }
@@ -83,7 +84,7 @@ h3 {
 }
 
 .header-item-link:hover,
-:focus {
+.header-item-link:focus {
   color: var(--hover-color);
 }
 
@@ -96,9 +97,10 @@ letter-spacing: 0.02em;
 }
 
 .header-contact:hover,
-:focus {
+.header-contact:focus {
   color: var(--hover-color);
 }
+
 
 /* -----------------------------Стилізація main------------------------------ */
 
@@ -148,6 +150,11 @@ letter-spacing: 0.02em;
 
 .main-secondary-title {
   font-weight: 700;
+  font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
 }
 
 .main-secondary-text {
@@ -215,6 +222,7 @@ background: #2F303A;
 }
 
 .footer-address{
+  font-style: normal;
   font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
@@ -229,5 +237,5 @@ font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: var(--third-color);
+color: rgba(255, 255, 255, 0.6);
 }
